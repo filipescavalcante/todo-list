@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    --font-titulo: 'Poppins', sans-serif;
+    --font-padrao:'Open Sans', sans-serif;
+    --cor-fundo: #CAD8DE;
+    --cor-botao1: #086788;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--font-padrao);
+}
+
+header {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 25px;
+    color: rgb(5, 12, 117);
+}
+
+h1 {
+    font-family: var(--font-titulo);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331)
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+}
+
+input {
+    height: 50px;
+    padding: 0 10px;
+    border: rgb(126, 125, 125);
+    border-radius: 20px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#add {
+    background-color: var(--cor-botao1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tarefas {
+    background-color: white;
+    height: 50px;
+    width: 430px;
+    margin: 5px 0;
+    border: rgb(126, 125, 125);
+    border-radius: 20px;
+}
+
+.tarefas p {
+    margin: 16px 10px;
+}
