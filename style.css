@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 * {
-    --font-titulo: 'Poppins', sans-serif;
+    --font-personalizada: 'Poppins', sans-serif;
     --font-padrao:'Open Sans', sans-serif;
     --cor-fundo: #CAD8DE;
     --cor-botao1: #086788;
@@ -24,7 +24,7 @@ header {
 }
 
 h1 {
-    font-family: var(--font-titulo);
+    font-family: var(--font-personalizada);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331)
 }
 
@@ -42,6 +42,7 @@ input {
     border-radius: 20px;
     font-size: 15px;
     font-style: italic;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.316);
 }
 
 #add {
@@ -59,15 +60,15 @@ input {
     margin: 20px 0;
 }
 
-.tarefas {
+li {
+    font-family: var(--font-padrao);
+    font-size: 20px;
+    color: rgb(1, 70, 131);
     background-color: white;
-    height: 50px;
     width: 430px;
+    height: 30px;
+    padding: 12px 0 0 10px;
     margin: 5px 0;
-    border: rgb(126, 125, 125);
-    border-radius: 20px;
-}
-
-.tarefas p {
-    margin: 16px 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.316);
 }
